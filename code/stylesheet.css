@@ -19,20 +19,16 @@
   position: relative;
   z-index: 2;
 }
-
+ 
 .top_section1 {
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-evenly;
-=======
   justify-content: space-between;
->>>>>>> 5f1f140 (day1.1)
   align-items: center;
   padding: 8px 40px;
   height: 30px;
   border-bottom: 2px solid gray;
 }
-
+ 
 .left_section,
 .right_section {
   display: flex;
@@ -42,14 +38,10 @@
   list-style: none;
   gap: 20px;
 }
-
+ 
 .left_links,
-<<<<<<< HEAD
-.left_links1 {
-=======
 .left_links1,
 .left_links2 {
->>>>>>> 5f1f140 (day1.1)
   color: white;
   text-decoration: none;
   display: flex;
@@ -57,29 +49,18 @@
   gap: 6px;
   transition: color 0.3s ease;
 }
-<<<<<<< HEAD
-
-.left_links:hover {
-  color: lightblue;
-=======
 .left_links2:hover{
   color:#007bff
 }
-
+ 
 .left_links:hover {
-<<<<<<< HEAD
   color: #F56960;
->>>>>>> 5f1f140 (day1.1)
-=======
-  /* color: #F56960; */
-  color:orangered;
->>>>>>> 75a3bf9 (day1.1)
 }
 .left_links:hover .fas.fa-caret-up {
   transform: rotate(180deg);
   transition: transform 0.3s ease;
 }
-  
+ 
 .search-icon {
   background: none;
   border: 2px;
@@ -94,42 +75,26 @@
 .search-icon:hover {
   color: lightblue;
 }
-
-.top_section2 {
-<<<<<<< HEAD
-   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 8px 40px;
-  height: 50px;
  
-=======
+.top_section2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding:  20px;
   height: 50px;
   margin-left: 10px;
->>>>>>> 5f1f140 (day1.1)
 }
-
+ 
 .buy_now_btn {
   font-size: 20px;
   padding: 15px;
-<<<<<<< HEAD
-  background-color: orangered;
-=======
   background-color: #F56960;
->>>>>>> 5f1f140 (day1.1)
   color: white;
   margin: 20px;
   cursor: pointer;
   transition: background-color 0.2s ease;
-<<<<<<< HEAD
-=======
   border: none;
->>>>>>> 5f1f140 (day1.1)
-
+ 
 }
 .buy_now_btn:hover{
   background-color: dodgerblue;
@@ -139,7 +104,7 @@
   display: flex;
   gap: 25px;
 }
-
+ 
 .main_menu li {
   display: block;
 }
@@ -151,27 +116,20 @@
 }
 .submenu {
   display: none;
-<<<<<<< HEAD
-  border-top: 5px solid orangered;
-=======
   border-top: 5px solid #F56960;
->>>>>>> 5f1f140 (day1.1)
   position: absolute;
   background: white;
   width: 150px;
   padding: 1px;
-<<<<<<< HEAD
-=======
     z-index: 999;
-
->>>>>>> 5f1f140 (day1.1)
+ 
 }
-
+ 
 .submenu li {
   list-style: none;
   border-bottom: 1px solid gray;
 }
-
+ 
 .submenu li a {
   color: black;
   display: flex;
@@ -179,24 +137,20 @@
   padding: 10px 15px;    
   transition: justify-content 0.5s ease, background-color 0.5s ease;
 }
-
+ 
 .submenu li a:hover {
   background-color: dodgerblue;
   justify-content: center;
 }
-
+ 
 .third_part_content {
   padding: 80px 40px;
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-evenly;
-=======
   justify-content: space-between;
->>>>>>> 5f1f140 (day1.1)
   /* position: relative; */
   color: white;
 }
-
+ 
 .third_part_container {
   display: flex;
   justify-content: space-between;
@@ -204,37 +158,30 @@
   max-width: 1200px;
   width: 100%;
 }
-
+ 
 .third_part_left {
   flex: 2;
 }
-
+ 
 .third_part_heading h5 {
-<<<<<<< HEAD
-  color: #ff4d4d;
-  font-weight: 700;
-  /* letter-spacing: 1px;
-  margin-bottom: 10px; */
-=======
   color: #F56960;
   font-weight: 700;
   letter-spacing: 1px;
   /* margin-bottom: 10px; */
->>>>>>> 5f1f140 (day1.1)
 }
-
+ 
 .banner_title {
   font-size: 50px;
   font-weight: 900;
   margin-bottom: 20px;
 }
-
+ 
 .title_icon_divider {
   font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
-
+ 
 .third_part_heading p {
   color: #f1f1f1;
   font-size: 15px;
@@ -242,72 +189,49 @@
   max-width: 600px;
   margin-bottom: 30px;
 }
-
+ 
 .third_part_buttons {
   display: flex;
-<<<<<<< HEAD
-=======
   position: absolute;
   left:20px;
->>>>>>> 5f1f140 (day1.1)
 }
-
+ 
 .buy_now_btn2{
   font-size: 20px;
   padding: 15px;
-<<<<<<< HEAD
-  background-color:#00a8e8;
-=======
   background-color:#0791BE;
->>>>>>> 5f1f140 (day1.1)
   color: white;
   margin: 20px;
   cursor: pointer;
   transition: background-color 0.2s ease;
-<<<<<<< HEAD
-}
-.buy_now_btn2:hover{
-  background-color: dodgerblue;
-=======
     border: none;
-
+ 
 }
 .buy_now_btn2:hover{
   background-color: #007bff;
->>>>>>> 5f1f140 (day1.1)
 }
-
+ 
 .third_part_right {
   flex: 1;
-<<<<<<< HEAD
-}
-
-.search_box_wrapper {
-  background-color: #00a8e8;
-=======
   position: absolute;
   right:35px;
   top:90px;
 }
-
+ 
 .search_box_wrapper {
   background-color: #0791BE;
->>>>>>> 5f1f140 (day1.1)
   padding: 30px;
   width: 100%;
   max-width: 300px;
 }
-
+ 
 .search_box_inner {
   display: flex;
   flex-direction: column;
   gap: 18px;
-<<<<<<< HEAD
-=======
   z-index: 2;
->>>>>>> 5f1f140 (day1.1)
 }
-
+ 
 .search_input_group label {
   font-size: 13px;
   font-weight: 600;
@@ -315,7 +239,7 @@
   margin-bottom: 5px;
   display: block;
 }
-
+ 
 .search_input_group input[type="text"],
 .search_input_group input[type="submit"] {
   width: 100%;
@@ -325,61 +249,34 @@
   padding-right: 1px;
   padding-left: 1px;
   margin-top: 10px;
-
+ 
 }
-
+ 
 .search_input_group input[type="text"] {
   background-color: white;
   color: black;
 }
-
-<<<<<<< HEAD
-.s {
-  background-color: orangered;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease;
-  
-}
-
-.s:hover {
-  background-color: #e63b00;
-}
-
-.buy_now_btn3 {
-  font-size: 20px;
-  padding: 15px;
-  background-color: orangered;
-=======
+ 
 .buy_now_btn3 {
   font-size: 20px;
   padding: 15px;
   background-color: #F56960;
->>>>>>> 5f1f140 (day1.1)
   color: white;
   cursor: pointer;
   transition: background-color 0.2s ease;
   width:302px;
   margin-top: 20px;
-<<<<<<< HEAD
-  
-=======
   border: none;
->>>>>>> 5f1f140 (day1.1)
 }
 .buy_now_btn3:hover{
   background-color: dodgerblue;
 }
-
-<<<<<<< HEAD
-=======
+ 
 /* ------------------------------------------------------------------- */
-
-
-
-
+ 
+ 
+ 
+ 
 .headings{
   text-align: center;
 }
@@ -416,4 +313,5 @@ color: #0791BE;}
   top: 2px;
   z-index: 3;
 }
->>>>>>> 5f1f140 (day1.1)
+ 
+ 

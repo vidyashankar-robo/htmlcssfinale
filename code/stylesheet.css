@@ -67,8 +67,13 @@
 }
 
 .left_links:hover {
+<<<<<<< HEAD
   color: #F56960;
 >>>>>>> 5f1f140 (day1.1)
+=======
+  /* color: #F56960; */
+  color:orangered;
+>>>>>>> 75a3bf9 (day1.1)
 }
 .left_links:hover .fas.fa-caret-up {
   transform: rotate(180deg);

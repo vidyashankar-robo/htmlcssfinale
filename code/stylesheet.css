@@ -22,7 +22,11 @@
 
 .top_section1 {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-evenly;
+=======
+  justify-content: space-between;
+>>>>>>> 5f1f140 (day1.1)
   align-items: center;
   padding: 8px 40px;
   height: 30px;
@@ -40,7 +44,12 @@
 }
 
 .left_links,
+<<<<<<< HEAD
 .left_links1 {
+=======
+.left_links1,
+.left_links2 {
+>>>>>>> 5f1f140 (day1.1)
   color: white;
   text-decoration: none;
   display: flex;
@@ -48,9 +57,18 @@
   gap: 6px;
   transition: color 0.3s ease;
 }
+<<<<<<< HEAD
 
 .left_links:hover {
   color: lightblue;
+=======
+.left_links2:hover{
+  color:#007bff
+}
+
+.left_links:hover {
+  color: #F56960;
+>>>>>>> 5f1f140 (day1.1)
 }
 .left_links:hover .fas.fa-caret-up {
   transform: rotate(180deg);
@@ -73,22 +91,39 @@
 }
 
 .top_section2 {
+<<<<<<< HEAD
    display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 8px 40px;
   height: 50px;
  
+=======
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  20px;
+  height: 50px;
+  margin-left: 10px;
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .buy_now_btn {
   font-size: 20px;
   padding: 15px;
+<<<<<<< HEAD
   background-color: orangered;
+=======
+  background-color: #F56960;
+>>>>>>> 5f1f140 (day1.1)
   color: white;
   margin: 20px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+<<<<<<< HEAD
+=======
+  border: none;
+>>>>>>> 5f1f140 (day1.1)
 
 }
 .buy_now_btn:hover{
@@ -111,11 +146,20 @@
 }
 .submenu {
   display: none;
+<<<<<<< HEAD
   border-top: 5px solid orangered;
+=======
+  border-top: 5px solid #F56960;
+>>>>>>> 5f1f140 (day1.1)
   position: absolute;
   background: white;
   width: 150px;
   padding: 1px;
+<<<<<<< HEAD
+=======
+    z-index: 999;
+
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .submenu li {
@@ -139,7 +183,11 @@
 .third_part_content {
   padding: 80px 40px;
   display: flex;
+<<<<<<< HEAD
   justify-content: space-evenly;
+=======
+  justify-content: space-between;
+>>>>>>> 5f1f140 (day1.1)
   /* position: relative; */
   color: white;
 }
@@ -157,10 +205,17 @@
 }
 
 .third_part_heading h5 {
+<<<<<<< HEAD
   color: #ff4d4d;
   font-weight: 700;
   /* letter-spacing: 1px;
   margin-bottom: 10px; */
+=======
+  color: #F56960;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /* margin-bottom: 10px; */
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .banner_title {
@@ -185,27 +240,54 @@
 
 .third_part_buttons {
   display: flex;
+<<<<<<< HEAD
+=======
+  position: absolute;
+  left:20px;
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .buy_now_btn2{
   font-size: 20px;
   padding: 15px;
+<<<<<<< HEAD
   background-color:#00a8e8;
+=======
+  background-color:#0791BE;
+>>>>>>> 5f1f140 (day1.1)
   color: white;
   margin: 20px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+<<<<<<< HEAD
 }
 .buy_now_btn2:hover{
   background-color: dodgerblue;
+=======
+    border: none;
+
+}
+.buy_now_btn2:hover{
+  background-color: #007bff;
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .third_part_right {
   flex: 1;
+<<<<<<< HEAD
 }
 
 .search_box_wrapper {
   background-color: #00a8e8;
+=======
+  position: absolute;
+  right:35px;
+  top:90px;
+}
+
+.search_box_wrapper {
+  background-color: #0791BE;
+>>>>>>> 5f1f140 (day1.1)
   padding: 30px;
   width: 100%;
   max-width: 300px;
@@ -215,6 +297,10 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
+<<<<<<< HEAD
+=======
+  z-index: 2;
+>>>>>>> 5f1f140 (day1.1)
 }
 
 .search_input_group label {
@@ -242,6 +328,7 @@
   color: black;
 }
 
+<<<<<<< HEAD
 .s {
   background-color: orangered;
   color: white;
@@ -260,14 +347,68 @@
   font-size: 20px;
   padding: 15px;
   background-color: orangered;
+=======
+.buy_now_btn3 {
+  font-size: 20px;
+  padding: 15px;
+  background-color: #F56960;
+>>>>>>> 5f1f140 (day1.1)
   color: white;
   cursor: pointer;
   transition: background-color 0.2s ease;
   width:302px;
   margin-top: 20px;
+<<<<<<< HEAD
   
+=======
+  border: none;
+>>>>>>> 5f1f140 (day1.1)
 }
 .buy_now_btn3:hover{
   background-color: dodgerblue;
 }
 
+<<<<<<< HEAD
+=======
+/* ------------------------------------------------------------------- */
+
+
+
+
+.headings{
+  text-align: center;
+}
+.dot{
+  font-size:25px;
+color: #0791BE;}
+.headings strong{
+  font-weight: 999;
+  font-size:30px;
+  color: #101F46;
+  font-family: "Raleway", sans-serif;
+}
+.headings h5{
+    color: #F56960;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 22px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 60px;
+}
+.leftlinks2{
+  color:white;
+}
+.four_images{
+  /* background-color: ; */
+}
+.mainimg{
+  position:relative;
+}
+.fa-solid.fa-star{
+  position: absolute;
+  right:2px;
+  top: 2px;
+  z-index: 3;
+}
+>>>>>>> 5f1f140 (day1.1)

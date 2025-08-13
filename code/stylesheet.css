@@ -55,6 +55,7 @@
  
 .left_links:hover {
   color: #F56960;
+  /* color:orangered; */
 }
 .left_links:hover .fas.fa-caret-up {
   transform: rotate(180deg);

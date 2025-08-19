@@ -26,11 +26,12 @@
 
 .top_section1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 8px 40px;
   height: 30px;
   border-bottom: 2px solid gray;
+  gap:140px;
 }
 
 .left_section,
@@ -86,11 +87,10 @@
 
 .top_section2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   height: 50px;
-  margin-left: 10px;
 }
 
 .buy_now_btn {
@@ -159,23 +159,18 @@
 .third_part_content {
   padding: 80px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* position: relative; */
   color: white;
 }
 
 .third_part_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
   max-width: 1200px;
   width: 100%;
 }
-
-.third_part_left {
-  flex: 2;
-}
-
 .third_part_heading h5 {
   color: #F56960;
   font-weight: 700;
@@ -205,8 +200,6 @@
 
 .third_part_buttons {
   display: flex;
-  position: absolute;
-  left: 20px;
 }
 
 .buy_now_btn2 {
@@ -225,12 +218,6 @@
   background-color: #007bff;
 }
 
-.third_part_right {
-  flex: 1;
-  position: absolute;
-  right: 35px;
-  top: 90px;
-}
 
 .search_box_wrapper {
   background-color: #0791BE;
@@ -243,7 +230,6 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
-  z-index: 2;
 }
 
 .search_input_group label {
@@ -324,7 +310,7 @@
 .four_images {
   display: flex;
   gap: 1px;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -564,14 +550,17 @@
 
 .simple_logos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap:100px
 }
 
 /* -------------------------------------------------- */
 .package_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  gap: 50px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .package_card {
@@ -579,7 +568,6 @@
   grid-template-columns: 260px 1fr;
   height: 450px;
   border: 1px solid #e9edf2;
-  border-radius: 4px;
 }
 
 .package_image {
@@ -740,15 +728,14 @@
 
 .package_icons {
   display: flex;
-  justify-content: space-between;
-  /* align-items: stretch; */
+  justify-content: center;
   margin: 40px auto 0;
+  gap:50px;
 }
 
 .icon_box {
-  flex: 1;
-  padding: 0 15px;
   text-align: center;
+  padding-right:20px;
   border-right: 1px solid grey;
 }
 
@@ -802,8 +789,10 @@
 
 .hero_slider {
   position: relative;
-  width: 100%;
+  width: 1700px;
   height: 500px;
+  margin: auto;
+ 
 }
 
 .slide {
@@ -862,7 +851,7 @@
 .tour_cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   padding: 40px;
 }
 
@@ -929,7 +918,7 @@
 .team_cards {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 40px;
 }
 
@@ -988,17 +977,20 @@
 
 .last_img_section {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
+  gap:50px;
 }
 
 .bot_links:first-child {
   gap: 30px;
   padding-right:15px;
 }
-.botlinks {
+.bot_links:last-child{
+  border-right: none;
+}
+.bot_links {
   display: flex;
-  justify-content: space-evenly;
+  
 }
 .last_card a {
   border-right: 2px solid grey;
@@ -1008,10 +1000,204 @@
 }
 
 .last_card img {
-  width: 500px;
+  width: 350px;
 }
 
 .last_card h2 {
   color: #091e55;
   font-family: "Raleway", sans-serif;
 }
+
+.above_footer {
+  margin-top: 60px;
+}
+
+.above_footer_img_wrapper {
+  position: relative;
+  height: 250px;
+}
+
+.above_footer_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inside_image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  display: flex;
+  gap:100px;
+  justify-content: center;
+  align-items: center;
+  padding:60px;
+  box-sizing: border-box;
+}
+
+.left_content {
+  max-width: 65%;
+}
+
+.left_content h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.left_content p {
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.footer_section {
+  background-color: #3f3c3c;
+  color: #ccc;
+  font-family: "Open Sans", sans-serif;
+}
+.blue{
+color:dodgerblue;
+}
+
+.footer_container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  padding: 60px 30px;
+   
+  margin:0 auto;
+
+}
+
+.footer_row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer_col {
+  flex: 1 1 22%; /* grow,shrik and basis shorthand check alternates later */
+  min-width: 250px;
+}
+
+.footer_heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer_text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.footer_awards a {
+  margin-right: 10px;
+}
+.footer_awards2{
+  width:100px;
+  height:300px;
+}
+
+.footer_awards img {
+  height: 30px;
+}
+
+.footer_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer_list i {
+  margin-right: 10px;
+  color: #f95f53;
+  border-left: none;
+}
+
+.footer_post {
+  margin-bottom: 15px;
+  border-bottom: 2px solid grey;;
+}
+.footer_post:last-child{
+  border-bottom: none;
+}
+
+.footer_post h5 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.footer_post h5 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_post p {
+  font-size: 13px;
+  color: #999;
+}
+
+.footer_form input[type="email"] {
+  width: 255px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.footer_form input[type="submit"] {
+  background-color: #f95f53;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.footer_bottom {
+  background-color: #333333;
+}
+
+.footer_bottom_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.footer_links li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  border-right: 1px solid grey;
+
+}
+.footer_copy {
+  font-size: 13px;
+  color: #999;
+}
+
+
+
